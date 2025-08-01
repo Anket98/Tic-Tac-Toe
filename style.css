@@ -75,3 +75,31 @@ height: 20vmin;
 .o{
     color: red;
 }
+
+@media (max-width: 500px) {
+  .game {
+    width: 90vmin;
+    height: 90vmin;
+    gap: 2vmin;
+  }
+
+  .box {
+    width: 28vmin;
+    height: 28vmin;
+    font-size: 10vmin;
+  }
+
+  #reset-but,
+  #new-but {
+    font-size: 0.9rem;
+    padding: 0.4rem 1rem;
+  }
+
+  #msg {
+    font-size: 5vmin;
+  }
+
+  .msg-container {
+    height: auto;
+  }
+}
